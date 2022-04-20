@@ -1,8 +1,13 @@
 import './App.css';
+import AddTask from './components/AddTask';
 
 function App() {
   return (
-    <h1>Hello World!!</h1>
+    <div>
+      <h1>Hello World!!</h1>
+      <AddTask />
+    </div>
+
   );
 }
 
